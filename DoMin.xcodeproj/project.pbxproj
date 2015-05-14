@@ -14,7 +14,6 @@
 		15B2C3BF1AD774FC003C078B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B2C3BE1AD774FC003C078B /* AppDelegate.swift */; };
 		15B2C3C11AD774FC003C078B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B2C3C01AD774FC003C078B /* ViewController.swift */; };
 		15B2C3C41AD774FC003C078B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15B2C3C21AD774FC003C078B /* Main.storyboard */; };
-		15B2C3C61AD774FC003C078B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15B2C3C51AD774FC003C078B /* Images.xcassets */; };
 		15B2C3C91AD774FC003C078B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15B2C3C71AD774FC003C078B /* LaunchScreen.xib */; };
 		15B2C3D51AD774FC003C078B /* DoMinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B2C3D41AD774FC003C078B /* DoMinTests.swift */; };
 		15B2C3E51AD77A18003C078B /* Time.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B2C3E41AD77A18003C078B /* Time.swift */; };
@@ -24,6 +23,7 @@
 		15B2C3EE1AD83589003C078B /* SquareBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B2C3ED1AD83589003C078B /* SquareBtn.swift */; };
 		15B8CE781ADB6138005459DE /* GameOverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B8CE771ADB6138005459DE /* GameOverView.swift */; };
 		15B8CE7C1ADB7E2A005459DE /* YouWinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B8CE7B1ADB7E2A005459DE /* YouWinView.swift */; };
+		15C08F4B1AE2844B006A9259 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15C08F4A1AE2844B006A9259 /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,7 +46,6 @@
 		15B2C3BE1AD774FC003C078B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		15B2C3C01AD774FC003C078B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		15B2C3C31AD774FC003C078B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		15B2C3C51AD774FC003C078B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		15B2C3C81AD774FC003C078B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		15B2C3CE1AD774FC003C078B /* DoMinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoMinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		15B2C3D31AD774FC003C078B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -58,6 +57,7 @@
 		15B2C3ED1AD83589003C078B /* SquareBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SquareBtn.swift; sourceTree = "<group>"; };
 		15B8CE771ADB6138005459DE /* GameOverView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOverView.swift; sourceTree = "<group>"; };
 		15B8CE7B1ADB7E2A005459DE /* YouWinView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YouWinView.swift; sourceTree = "<group>"; };
+		15C08F4A1AE2844B006A9259 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +103,8 @@
 				15B2C3E11AD7759D003C078B /* Model */,
 				15B2C3DE1AD77515003C078B /* View */,
 				15B2C3BE1AD774FC003C078B /* AppDelegate.swift */,
+				15C08F4A1AE2844B006A9259 /* Images.xcassets */,
 				15B2C3C21AD774FC003C078B /* Main.storyboard */,
-				15B2C3C51AD774FC003C078B /* Images.xcassets */,
 				15B2C3C71AD774FC003C078B /* LaunchScreen.xib */,
 				15B2C3BC1AD774FC003C078B /* Supporting Files */,
 			);
@@ -218,6 +218,7 @@
 				TargetAttributes = {
 					15B2C3B81AD774FC003C078B = {
 						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = S49VK8B668;
 					};
 					15B2C3CD1AD774FC003C078B = {
 						CreatedOnToolsVersion = 6.3;
@@ -249,9 +250,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15C08F4B1AE2844B006A9259 /* Images.xcassets in Resources */,
 				15B2C3C41AD774FC003C078B /* Main.storyboard in Resources */,
 				15B2C3C91AD774FC003C078B /* LaunchScreen.xib in Resources */,
-				15B2C3C61AD774FC003C078B /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,9 +411,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Th/ng Tr//ng (UG24J5ZHE5)";
 				INFOPLIST_FILE = DoMin/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "00688593-98f4-4767-ade2-6bb5a7587703";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -420,9 +425,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Th/ng Tr//ng (UG24J5ZHE5)";
 				INFOPLIST_FILE = DoMin/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "00688593-98f4-4767-ade2-6bb5a7587703";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

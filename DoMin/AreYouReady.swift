@@ -16,8 +16,6 @@ class  AreYouReady : UIView {
     var btnYes: UIButton!
     var btnNo: UIButton!
     
-    var blurEffect = UIBlurEffect(style: UIBlurEffectStyle.ExtraLight)
-    
     func makeBtn(center : CGPoint, title: String) -> UIButton{
         var temp = UIButton.buttonWithType(UIButtonType.System) as! UIButton
         temp.frame = CGRect(x: 0, y: 0, width: 100, height: 40)
@@ -32,8 +30,10 @@ class  AreYouReady : UIView {
 
     override init(frame: CGRect) {
         super.init(frame: frame)
-        var blurEffectView = UIVisualEffectView(effect: blurEffect)
+        var blurEffectView = UIView()
         blurEffectView.frame = super.frame
+        blurEffectView.backgroundColor = UIColor.grayColor()
+        blurEffectView.alpha = 0.7
         super.addSubview(blurEffectView)
 
         btnYes = makeBtn(CGPoint(x: super.bounds.width / 4,

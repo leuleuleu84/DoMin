@@ -27,6 +27,7 @@ class SquareBtn: UIButton {
         var frame = CGRectMake(x, y, dimension, dimension)
         super.init(frame: frame)
         super.setBackgroundImage(squareImage , forState: UIControlState.Normal)
+
         
     }
     func getInfo(){

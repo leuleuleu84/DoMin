@@ -9,16 +9,15 @@
 import Foundation
 import UIKit
 class PauseView: UIView {
-    var blurEffect = UIBlurEffect(style: UIBlurEffectStyle.Dark)
     
     var btnPause =  UIButton.buttonWithType(UIButtonType.System) as! UIButton
     var playImg = UIImage(named: "play")
     
     override init(frame: CGRect) {
         super.init(frame: frame)
-        var blurEffectView = UIVisualEffectView(effect: blurEffect)
+        var blurEffectView = UIView()
         blurEffectView.frame = super.frame
-        
+        blurEffectView.backgroundColor = UIColor.blackColor()
         
         btnPause.frame.size = CGSize(width: 80, height: 80)
         btnPause.setBackgroundImage(playImg, forState: UIControlState.Normal)

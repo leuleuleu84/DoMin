@@ -13,12 +13,13 @@ class YouWinView: UIView {
     var continousBtn = UIButton.buttonWithType(UIButtonType.System) as! UIButton
 
     var img = UIImage(named: "btnNormal")
-    var blurEffect = UIBlurEffect(style: UIBlurEffectStyle(rawValue: 2)!)
     
     override init(frame: CGRect) {
         super.init(frame: frame)
-        var blurEffectView = UIVisualEffectView(effect: blurEffect)
+        var blurEffectView = UIView()
         blurEffectView.frame = super.frame
+        blurEffectView.backgroundColor = UIColor.grayColor()
+        blurEffectView.alpha = 0.7
         super.addSubview(blurEffectView)
         
         youWinView.center = CGPoint(x: super.center.x, y: super.center.y - 100)
